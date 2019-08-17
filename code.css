@@ -1,0 +1,20 @@
+.card{
+	margin-top: 10px;
+}
+.card span{
+	color:red;
+}
+.card h4{
+	
+}
+.footer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer a{
+	padding: 10px;
+	text-decoration: none;
+}
+.card-on{
+	display: none;
+}

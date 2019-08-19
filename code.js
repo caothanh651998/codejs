@@ -1,7 +1,12 @@
 $(document).ready(function() {
-   $(function(){
-	    $('.btn').click(function(){
-	        $('.card').toggle(2000);
-	    });
+	$('.card').click(function() {
+	    $('.card').toggle(50);
+	    $('.card-on').toggle(50);
 	});
+
+	$('.active').click(function() {
+	    $('.card-on').hide();
+	    $('.card').show();
+	});
+
 });

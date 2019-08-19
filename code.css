@@ -1,3 +1,23 @@
+.logo{
+	height: 150px;
+	background: #080844;
+	color: white;
+}
+.logo img{
+	widows: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+	float: left;
+}
+.nav{
+	background: #778899;
+	color: white;
+}
+.nav-link{
+	color:white;
+}
 .card{
 	margin-top: 10px;
 }
@@ -17,4 +37,43 @@
 }
 .card-on{
 	display: none;
+	height: 500px;
+}
+#menu ul {
+  background: #8AD385;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  z-index: 100;
+}
+#menu li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 1em;
+}
+#menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+#menu li:hover {
+  background: #CDE2CD;
+}
+
+/*==Dropdown Menu==*/
+#menu ul li {
+  position: relative;
+}
+#menu .sub-menu {
+  position: absolute;
+  left: 305px;
+  top: 0;
+  display: none;
+}
+#menu li:hover .sub-menu {
+  display: block;
 }
